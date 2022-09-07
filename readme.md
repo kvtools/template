@@ -5,3 +5,17 @@
 **This package is a template only.**
 
 Store repository template to create a [Valkeyrie store](https://github.com/kvtools/valkeyrie).
+
+| Calls                 | Example |
+|-----------------------|:-------:|
+| Put                   |   🔴    |
+| Get                   |   🔴    |
+| Delete                |   🔴    |
+| Exists                |   🔴    |
+| Watch                 |   🔴    |
+| WatchTree             |   🔴    |
+| NewLock (Lock/Unlock) |   🔴    |
+| List                  |   🔴    |
+| DeleteTree            |   🔴    |
+| AtomicPut             |   🔴    |
+| AtomicDelete          |   🔴    |
