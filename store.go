@@ -40,7 +40,7 @@ type Store struct{}
 
 // New creates a new Example client.
 // TODO implement me.
-func New(_ context.Context, endpoints []string, options *Config) (*Store, error) {
+func New(ctx context.Context, endpoints []string, options *Config) (*Store, error) {
 	return &Store{}, nil
 }
 
