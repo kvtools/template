@@ -1,13 +1,11 @@
 version: "3.9"
 
-# when running test local, you can specify the image version using the
-# <service>_VERSION.
-# Example, to run consul with the version 1.8:
-# CONSUL_VERSION=1.8 make
+# when running test local, you can specify the image version using the env var EXAMPLE_VERSION.
+# Example: EXAMPLE_VERSION=1.18.0 make
 
 #services:
 #  consul:
-#    image: consul:${CONSUL_VERSION:-1.1.0}
+#    image: consul:${EXAMPLE_VERSION:-1.1.0}
 #    container_name: consul
 #    command: agent -server -bootstrap -client 0.0.0.0
 #    environment:
