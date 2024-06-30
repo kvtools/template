@@ -1,5 +1,3 @@
-version: "3.9"
-
 # when running test local, you can specify the image version using the env var EXAMPLE_VERSION.
 # Example: EXAMPLE_VERSION=1.18.0 make
 
