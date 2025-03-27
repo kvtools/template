@@ -1,6 +1,6 @@
 module github.com/kvtools/template
 
-go 1.19
+go 1.22
 
 require (
 	github.com/kvtools/valkeyrie v1.0.0
